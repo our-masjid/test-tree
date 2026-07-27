@@ -1,0 +1,1074 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-07-26",
+  "people": [
+    {
+      "id": "muhammad",
+      "name": "Prophet Muhammad ﷺ",
+      "title": "The Last Messenger of Allah & Seal of the Prophets",
+      "gender": "male",
+      "birth": "570 CE (12 Rabi' al-Awwal / Year of the Elephant), Mecca",
+      "death": "632 CE (12 Rabi' al-Awwal / 11 AH), Medina",
+      "burial": "Al-Masjid an-Nabawi (Rawdah al-Sharifah), Medina",
+      "father": "abdullah",
+      "mother": "aminah",
+      "spouses": [
+        "khadijah",
+        "sawda",
+        "aisha",
+        "hafsa",
+        "zainab-bint-khuzaymah",
+        "um-salama",
+        "zainab-bint-jahsh",
+        "juwayriya",
+        "ramla",
+        "safiyya",
+        "maymunah",
+        "mariya"
+      ],
+      "children": [
+        "qasim",
+        "zainab-daughter",
+        "ruqayyah",
+        "umm-kulthum",
+        "fatimah",
+        "abdullah-son",
+        "ibrahim"
+      ],
+      "siblings": [],
+      "biography": "Prophet Muhammad ﷺ was born in Mecca in 570 CE into the noble Hashim clan of the Quraysh tribe. Known from his youth as Al-Amin (The Trustworthy) and As-Sadiq (The Truthful), he received the first revelation of the Holy Qur'an from Allah through the Angel Jibril (Gabriel) at age 40 in the Cave of Hira. He preached the oneness of God (Tawhid), moral integrity, social justice, and compassion. After facing years of persecution in Mecca, he migrated to Medina (The Hijrah) in 622 CE, establishing the first Islamic community. By the time of his passing in 632 CE, Islam had spread throughout the Arabian Peninsula, establishing a universal legacy of faith, brotherhood, and human dignity.",
+      "timeline": [
+        { "year": "570 CE", "event": "Born in Mecca during the Year of the Elephant." },
+        { "year": "595 CE", "event": "Marries Khadijah bint Khuwaylid (RA)." },
+        { "year": "610 CE", "event": "Receives the first revelation in the Cave of Hira." },
+        { "year": "622 CE", "event": "Performs the Hijrah (Migration) to Medina." },
+        { "year": "624 CE", "event": "Victory at the Battle of Badr." },
+        { "year": "630 CE", "event": "Conquest of Mecca with peaceful entry and universal amnesty." },
+        { "year": "632 CE", "event": "Delivers Farewell Sermon at Mount Arafat and passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Ar-Raheeq Al-Makhtum (The Sealed Nectar)", "source": "Safiur Rahman Mubarakpuri" },
+        { "title": "Sirat Ibn Hisham", "source": "Ibn Hisham" },
+        { "title": "Sahih al-Bukhari & Sahih Muslim", "source": "Hadith Compilations" }
+      ],
+      "image": "assets/images/prophet-muhammad.svg",
+      "aliases": ["Al-Amin", "As-Sadiq", "Ahmad", "Mustafa", "Khatam an-Nabiyyin", "Habibullah"],
+      "notes": "Central focal figure of the family tree and the Islamic faith."
+    },
+    {
+      "id": "abdullah",
+      "name": "Abdullah ibn Abdul-Muttalib",
+      "title": "Father of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "545 CE, Mecca",
+      "death": "570 CE, Yathrib (Medina)",
+      "burial": "Yathrib (Medina)",
+      "father": "abdul-muttalib",
+      "mother": "fatimah-bint-amr",
+      "spouses": ["aminah"],
+      "children": ["muhammad"],
+      "siblings": ["abu-talib", "hamza", "abbas", "abu-lahab", "safiyyah-bint-abdul-muttalib"],
+      "biography": "Abdullah ibn Abdul-Muttalib was the youngest and favorite son of Abdul-Muttalib. He married Aminah bint Wahb of the Banu Zuhrah clan. Abdullah passed away on a trading voyage return journey in Yathrib (Medina) a few months before Prophet Muhammad ﷺ was born.",
+      "timeline": [
+        { "year": "545 CE", "event": "Born in Mecca." },
+        { "year": "569 CE", "event": "Marries Aminah bint Wahb." },
+        { "year": "570 CE", "event": "Passes away in Yathrib shortly before the Prophet's birth." }
+      ],
+      "references": [
+        { "title": "The Life of Muhammad", "source": "Ibn Ishaq" }
+      ],
+      "image": "",
+      "aliases": ["Dhabih (The Ransomed)"],
+      "notes": "Belonged to Banu Hashim."
+    },
+    {
+      "id": "aminah",
+      "name": "Aminah bint Wahb",
+      "title": "Mother of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "549 CE, Mecca",
+      "death": "577 CE, Al-Abwa",
+      "burial": "Al-Abwa (between Mecca and Medina)",
+      "father": "wahb",
+      "mother": "",
+      "spouses": ["abdullah"],
+      "children": ["muhammad"],
+      "siblings": [],
+      "biography": "Aminah bint Wahb was a noble woman from Banu Zuhrah, renowned for her virtue and intelligence. She gave birth to Prophet Muhammad ﷺ in Mecca. She passed away at Al-Abwa when Prophet Muhammad ﷺ was six years old while returning from visiting relatives in Medina.",
+      "timeline": [
+        { "year": "549 CE", "event": "Born in Mecca to Wahb ibn Abd Manaf." },
+        { "year": "569 CE", "event": "Marries Abdullah ibn Abdul-Muttalib." },
+        { "year": "570 CE", "event": "Gives birth to Prophet Muhammad ﷺ." },
+        { "year": "577 CE", "event": "Passes away at Al-Abwa." }
+      ],
+      "references": [
+        { "title": "History of the Prophets and Kings", "source": "Al-Tabari" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Belonged to Banu Zuhrah."
+    },
+    {
+      "id": "abdul-muttalib",
+      "name": "Abdul-Muttalib ibn Hashim",
+      "title": "Grandfather & Guardian of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "497 CE, Yathrib (Medina)",
+      "death": "578 CE, Mecca",
+      "burial": "Jannat al-Mu'alla, Mecca",
+      "father": "",
+      "mother": "",
+      "spouses": ["fatimah-bint-amr"],
+      "children": ["abdullah", "abu-talib", "hamza", "abbas", "abu-lahab", "safiyyah-bint-abdul-muttalib"],
+      "siblings": [],
+      "biography": "Abdul-Muttalib was the leader of the Quraysh tribe and custodian of the Kaaba. He rediscovered the ancient Well of Zamzam. Following the passing of Aminah, he took guardianship of his grandson Muhammad ﷺ and loved him dearly until his own passing.",
+      "timeline": [
+        { "year": "497 CE", "event": "Born in Yathrib." },
+        { "year": "540 CE", "event": "Rediscovers the Well of Zamzam in Mecca." },
+        { "year": "570 CE", "event": "Protects Mecca against Abrahah during the Elephant Incident." },
+        { "year": "578 CE", "event": "Passes away in Mecca." }
+      ],
+      "references": [
+        { "title": "Tarikh al-Rusul wa al-Muluk", "source": "Al-Tabari" }
+      ],
+      "image": "",
+      "aliases": ["Shaiba ibn Hashim"],
+      "notes": "Chieftain of Banu Hashim."
+    },
+    {
+      "id": "fatimah-bint-amr",
+      "name": "Fatimah bint Amr",
+      "title": "Paternal Grandmother of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "c. 510 CE, Mecca",
+      "death": "c. 576 CE, Mecca",
+      "burial": "Mecca",
+      "father": "",
+      "mother": "",
+      "spouses": ["abdul-muttalib"],
+      "children": ["abdullah", "abu-talib", "zubayr-ibn-abdul-muttalib"],
+      "siblings": [],
+      "biography": "Fatimah bint Amr was from the Banu Makhzum clan of Quraysh. She was the primary wife of Abdul-Muttalib and mother of Abdullah, Abu Talib, and Zubayr.",
+      "timeline": [],
+      "references": [
+        { "title": "Kitab al-Tabaqat al-Kabir", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Grandmother of both Prophet Muhammad ﷺ and Ali ibn Abi Talib."
+    },
+    {
+      "id": "wahb",
+      "name": "Wahb ibn Abd Manaf",
+      "title": "Maternal Grandfather of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "c. 520 CE, Mecca",
+      "death": "c. 565 CE, Mecca",
+      "burial": "Mecca",
+      "father": "",
+      "mother": "",
+      "spouses": [],
+      "children": ["aminah"],
+      "siblings": [],
+      "biography": "Wahb was the chief of Banu Zuhrah clan of Quraysh, known for his high stature and honor in Mecca.",
+      "timeline": [],
+      "references": [
+        { "title": "Ansab al-Ashraf", "source": "Al-Baladhuri" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Chief of Banu Zuhrah."
+    },
+    {
+      "id": "abu-talib",
+      "name": "Abu Talib ibn Abdul-Muttalib",
+      "title": "Uncle & Guardian of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "539 CE, Mecca",
+      "death": "619 CE, Mecca",
+      "burial": "Jannat al-Mu'alla, Mecca",
+      "father": "abdul-muttalib",
+      "mother": "fatimah-bint-amr",
+      "spouses": ["fatimah-bint-asad"],
+      "children": ["ali", "ja'far", "aqeel", "talib", "faktah"],
+      "siblings": ["abdullah", "hamza", "abbas", "abu-lahab", "safiyyah-bint-abdul-muttalib"],
+      "biography": "Abu Talib raised Prophet Muhammad ﷺ after Abdul-Muttalib's death. He stood firmly as his chief protector in Mecca against the hostile Quraysh leaders for over a decade. His death in 619 CE was marked as the Year of Sorrow (Aam al-Huzn).",
+      "timeline": [
+        { "year": "539 CE", "event": "Born in Mecca." },
+        { "year": "578 CE", "event": "Assumes guardianship of young Muhammad ﷺ." },
+        { "year": "617 CE", "event": "Endures the 3-year Quraysh boycott in Shi'b Abi Talib." },
+        { "year": "619 CE", "event": "Passes away in Mecca during Year of Sorrow." }
+      ],
+      "references": [
+        { "title": "Sirat Rasul Allah", "source": "Ibn Ishaq" }
+      ],
+      "image": "",
+      "aliases": ["Abdu Manaf"],
+      "notes": "Father of Ali ibn Abi Talib."
+    },
+    {
+      "id": "hamza",
+      "name": "Hamza ibn Abdul-Muttalib (RA)",
+      "title": "Sayyid ash-Shuhada (Master of Martyrs)",
+      "gender": "male",
+      "birth": "568 CE, Mecca",
+      "death": "625 CE (3 AH), Mount Uhud",
+      "burial": "Mount Uhud, Medina",
+      "father": "abdul-muttalib",
+      "mother": "halah-bint-wuhayb",
+      "spouses": [],
+      "children": ["ya'la", "umama"],
+      "siblings": ["abdullah", "abu-talib", "abbas", "abu-lahab", "safiyyah-bint-abdul-muttalib"],
+      "biography": "Hamza (RA) was the uncle and foster brother of Prophet Muhammad ﷺ. Known as Asadullah (The Lion of Allah), he accepted Islam in Mecca, greatly strengthening the early Muslims. He displayed unmatched bravery at the Battle of Badr and was martyred at Uhud.",
+      "timeline": [
+        { "year": "568 CE", "event": "Born in Mecca." },
+        { "year": "616 CE", "event": "Embraces Islam in Mecca." },
+        { "year": "624 CE", "event": "Fights valiantly at Badr." },
+        { "year": "625 CE", "event": "Martyred at the Battle of Uhud." }
+      ],
+      "references": [
+        { "title": "Siyar A'lam al-Nubala", "source": "Al-Dhahabi" }
+      ],
+      "image": "",
+      "aliases": ["Asadullah (Lion of Allah)", "Abu Ammarah"],
+      "notes": "Master of Martyrs."
+    },
+    {
+      "id": "abbas",
+      "name": "Al-Abbas ibn Abdul-Muttalib (RA)",
+      "title": "Paternal Uncle of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "566 CE, Mecca",
+      "death": "653 CE (32 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abdul-muttalib",
+      "mother": "nutayla-bint-janab",
+      "spouses": [],
+      "children": ["abdullah-ibn-abbas", "fadl-ibn-abbas"],
+      "siblings": ["abdullah", "abu-talib", "hamza", "abu-lahab", "safiyyah-bint-abdul-muttalib"],
+      "biography": "Al-Abbas (RA) was a wealthy merchant who protected Prophet Muhammad ﷺ during the Second Pledge of Aqabah. He accepted Islam, migrated to Medina, and supported the Prophet in his campaigns. Ancestor of the Abbasid Dynasty.",
+      "timeline": [
+        { "year": "566 CE", "event": "Born in Mecca." },
+        { "year": "630 CE", "event": "Participates in the Conquest of Mecca and Hunayn." },
+        { "year": "653 CE", "event": "Passes away during Caliphate of Uthman (RA)." }
+      ],
+      "references": [
+        { "title": "Usd al-Ghabah fi Ma'rifat al-Sahabah", "source": "Ibn al-Athir" }
+      ],
+      "image": "",
+      "aliases": ["Abu al-Fadl"],
+      "notes": "Father of the great Quranic commentator Abdullah ibn Abbas."
+    },
+    {
+      "id": "abu-lahab",
+      "name": "Abu Lahab (Abdul Uzza)",
+      "title": "Paternal Uncle who opposed Islam",
+      "gender": "male",
+      "birth": "549 CE, Mecca",
+      "death": "624 CE (2 AH), Mecca",
+      "burial": "Mecca",
+      "father": "abdul-muttalib",
+      "mother": "lubna-bint-hajar",
+      "spouses": ["umm-jamil"],
+      "children": ["utbah", "utaibah"],
+      "siblings": ["abdullah", "abu-talib", "hamza", "abbas"],
+      "biography": "Abu Lahab was an uncle of Prophet Muhammad ﷺ who fiercely opposed his message and harassed Muslims. Mentioned specifically in Surah Al-Masad.",
+      "timeline": [],
+      "references": [
+        { "title": "Tafsir Ibn Kathir", "source": "Ibn Kathir" }
+      ],
+      "image": "",
+      "aliases": ["Father of Flame"],
+      "notes": "Subject of Surah 111."
+    },
+    {
+      "id": "safiyyah-bint-abdul-muttalib",
+      "name": "Safiyyah bint Abdul-Muttalib (RA)",
+      "title": "Paternal Aunt of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "570 CE, Mecca",
+      "death": "640 CE (20 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abdul-muttalib",
+      "mother": "halah-bint-wuhayb",
+      "spouses": ["al-awwam-ibn-khuwaylid"],
+      "children": ["zubayr-ibn-al-awwam"],
+      "siblings": ["abdullah", "abu-talib", "hamza", "abbas"],
+      "biography": "Safiyyah (RA) was a courageous aunt of the Prophet ﷺ who embraced Islam early in Mecca, migrated to Medina, and actively defended the Muslim encampment during the Battle of the Trench.",
+      "timeline": [],
+      "references": [
+        { "title": "Al-Isabah fi Tamyiz al-Sahabah", "source": "Ibn Hajar al-Asqalani" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Mother of Zubayr ibn al-Awwam (RA)."
+    },
+    {
+      "id": "khadijah",
+      "name": "Khadijah bint Khuwaylid (RA)",
+      "title": "Ummat-ul-Mu'minin (First Wife & First Believer)",
+      "gender": "female",
+      "birth": "555 CE, Mecca",
+      "death": "619 CE (3 BH / Year of Sorrow), Mecca",
+      "burial": "Jannat al-Mu'alla, Mecca",
+      "father": "khuwaylid",
+      "mother": "fatimah-bint-za'idah",
+      "spouses": ["muhammad"],
+      "children": [
+        "qasim",
+        "zainab-daughter",
+        "ruqayyah",
+        "umm-kulthum",
+        "fatimah",
+        "abdullah-son"
+      ],
+      "siblings": [],
+      "biography": "Khadijah (RA) was a successful, noble businesswoman of Mecca known as Amirat Quraysh (Princess of Quraysh) and At-Tahirah (The Pure). She married Prophet Muhammad ﷺ when he was 25 and she was 40. She was the first person to embrace Islam, comforting him upon his first revelation and devoting her wealth and life to supporting the divine message. She was his sole wife for 25 years until her passing.",
+      "timeline": [
+        { "year": "555 CE", "event": "Born in Mecca." },
+        { "year": "595 CE", "event": "Marries Prophet Muhammad ﷺ." },
+        { "year": "610 CE", "event": "Becomes the first believer in Islam." },
+        { "year": "619 CE", "event": "Passes away during Year of Sorrow." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on Khadijah's Virtue" },
+        { "title": "Khadija: Mother of History's Greatest Nation", "source": "Biographical Records" }
+      ],
+      "image": "",
+      "aliases": ["At-Tahirah", "Amirat-Quraysh", "Khadijah al-Kubra"],
+      "notes": "Mother of six children of Prophet Muhammad ﷺ."
+    },
+    {
+      "id": "sawda",
+      "name": "Sawda bint Zam'a (RA)",
+      "title": "Ummat-ul-Mu'minin (Mother of the Believers)",
+      "gender": "female",
+      "birth": "c. 575 CE, Mecca",
+      "death": "644 CE (23 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "zam'a-ibn-qays",
+      "mother": "",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Sawda (RA) was an early Muslim who migrated to Abyssinia. After the passing of Khadijah (RA), she became the Prophet's wife in Mecca, known for her generosity, piety, and warm humor.",
+      "timeline": [
+        { "year": "620 CE", "event": "Marries Prophet Muhammad ﷺ in Mecca." },
+        { "year": "622 CE", "event": "Migrates to Medina." },
+        { "year": "644 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Siyar A'lam al-Nubala", "source": "Al-Dhahabi" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Known for her charitable nature."
+    },
+    {
+      "id": "aisha",
+      "name": "Aisha bint Abi Bakr (RA)",
+      "title": "Ummat-ul-Mu'minin (Scholar & Narrator of Hadith)",
+      "gender": "female",
+      "birth": "614 CE, Mecca",
+      "death": "678 CE (58 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abu-bakr",
+      "mother": "umm-ruman",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": ["asma-bint-abi-bakr", "abdur-rahman-ibn-abi-bakr"],
+      "biography": "Aisha (RA), daughter of Caliph Abu Bakr (RA), was one of the greatest scholars in Islamic history. She narrated over 2,200 Hadiths and taught Islamic law, medicine, poetry, and theology to numerous companions and followers.",
+      "timeline": [
+        { "year": "614 CE", "event": "Born in Mecca." },
+        { "year": "623 CE", "event": "Marries Prophet Muhammad ﷺ in Medina." },
+        { "year": "632 CE", "event": "Prophet Muhammad ﷺ passes away in her home." },
+        { "year": "678 CE", "event": "Passes away in Medina at age 64." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari & Sahih Muslim", "source": "Hadith Collections" },
+        { "title": "Aisha: The Wife, The Companion, The Scholar", "source": "Historical Studies" }
+      ],
+      "image": "",
+      "aliases": ["As-Siddiqah", "Humayra", "Umm al-Mu'minin"],
+      "notes": "Major source of Hadith literature."
+    },
+    {
+      "id": "hafsa",
+      "name": "Hafsa bint Umar (RA)",
+      "title": "Ummat-ul-Mu'minin (Custodian of the Quranic Manuscript)",
+      "gender": "female",
+      "birth": "605 CE, Mecca",
+      "death": "665 CE (45 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "umar-ibn-al-khattab",
+      "mother": "zainab-bint-maz'un",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": ["abdullah-ibn-umar"],
+      "biography": "Hafsa (RA), daughter of Caliph Umar ibn al-Khattab (RA), married the Prophet ﷺ in Medina after her first husband was martyred at Badr. She was literate, devout, and entrusted with keeping the master copy of the Holy Qur'an compiled under Abu Bakr (RA).",
+      "timeline": [
+        { "year": "605 CE", "event": "Born in Mecca." },
+        { "year": "625 CE", "event": "Marries Prophet Muhammad ﷺ." },
+        { "year": "665 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Kitab al-Tabaqat", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": ["Custodian of the Mushaf"],
+      "notes": "Preserved the first consolidated text of the Qur'an."
+    },
+    {
+      "id": "zainab-bint-khuzaymah",
+      "name": "Zainab bint Khuzaymah (RA)",
+      "title": "Ummat-ul-Mu'minin (Umm al-Masakin - Mother of the Poor)",
+      "gender": "female",
+      "birth": "595 CE, Mecca",
+      "death": "626 CE (4 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "khuzaymah-ibn-al-harith",
+      "mother": "",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Zainab bint Khuzaymah (RA) was celebrated for her immense charity and care for the needy, earning her the title 'Mother of the Poor' before Islam. She passed away just a few months after marrying the Prophet ﷺ.",
+      "timeline": [
+        { "year": "625 CE", "event": "Marries Prophet Muhammad ﷺ." },
+        { "year": "626 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Usd al-Ghabah", "source": "Ibn al-Athir" }
+      ],
+      "image": "",
+      "aliases": ["Umm al-Masakin"],
+      "notes": "Known for charity."
+    },
+    {
+      "id": "um-salama",
+      "name": "Um Salama / Hind bint Abi Umayya (RA)",
+      "title": "Ummat-ul-Mu'minin (Wise Advisor & Scholar)",
+      "gender": "female",
+      "birth": "596 CE, Mecca",
+      "death": "683 CE (62 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abu-umayya",
+      "mother": "atika-bint-amir",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Um Salama (RA) was an early Muslim convert who migrated to Abyssinia and Medina. Known for her wisdom, political insight, and religious knowledge, she gave pivotal advice during the Treaty of Hudaybiyyah.",
+      "timeline": [
+        { "year": "626 CE", "event": "Marries Prophet Muhammad ﷺ in Medina." },
+        { "year": "628 CE", "event": "Provides crucial counsel during Treaty of Hudaybiyyah." },
+        { "year": "683 CE", "event": "Passes away in Medina as the last surviving wife of the Prophet." }
+      ],
+      "references": [
+        { "title": "Sahih Muslim", "source": "Narrations of Um Salama" }
+      ],
+      "image": "",
+      "aliases": ["Hind bint Suhayl"],
+      "notes": "Wise counselor during Hudaybiyyah."
+    },
+    {
+      "id": "zainab-bint-jahsh",
+      "name": "Zainab bint Jahsh (RA)",
+      "title": "Ummat-ul-Mu'minin (Devout Crafts-woman & Philanthropist)",
+      "gender": "female",
+      "birth": "590 CE, Mecca",
+      "death": "641 CE (20 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "jahsh-ibn-riyab",
+      "mother": "umaimah-bint-abdul-muttalib",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Zainab bint Jahsh (RA) was the cousin of Prophet Muhammad ﷺ. She was skilled in leathercraft, earning income which she gave entirely to charity. Her marriage to the Prophet was explicitly ordained in Surah Al-Ahzab to repeal pre-Islamic adoption taboos.",
+      "timeline": [
+        { "year": "627 CE", "event": "Marries Prophet Muhammad ﷺ in Medina." },
+        { "year": "641 CE", "event": "Passes away in Medina during Omar's Caliphate." }
+      ],
+      "references": [
+        { "title": "Surah Al-Ahzab (33:37)", "source": "Holy Qur'an" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Cousin of the Prophet."
+    },
+    {
+      "id": "juwayriya",
+      "name": "Juwayriya bint al-Harith (RA)",
+      "title": "Ummat-ul-Mu'minin (Bringer of Blessing to Banu Mustaliq)",
+      "gender": "female",
+      "birth": "608 CE, Arabia",
+      "death": "676 CE (56 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "al-harith-ibn-abi-dirar",
+      "mother": "",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Juwayriya (RA) was the daughter of the chief of Banu al-Mustaliq. Upon her marriage to the Prophet ﷺ, all captives of her tribe were freed by the Muslims out of respect for her family.",
+      "timeline": [
+        { "year": "627 CE", "event": "Marries Prophet Muhammad ﷺ." },
+        { "year": "676 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Sunan Abi Dawud", "source": "Hadith Collection" }
+      ],
+      "image": "",
+      "aliases": ["Barrah"],
+      "notes": "Daughter of tribal leader Al-Harith."
+    },
+    {
+      "id": "ramla",
+      "name": "Ramla bint Abi Sufyan / Um Habiba (RA)",
+      "title": "Ummat-ul-Mu'minin (Steadfast Believer)",
+      "gender": "female",
+      "birth": "594 CE, Mecca",
+      "death": "664 CE (44 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abu-sufyan",
+      "mother": "safiyyah-bint-abi-al-as",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": ["muawiyah-ibn-abi-sufyan"],
+      "biography": "Ramla (RA), also known as Um Habiba, endured harsh trial when she migrated to Abyssinia. Prophet Muhammad ﷺ sent Negus (King of Abyssinia) to propose on his behalf while she was in Abyssinia.",
+      "timeline": [
+        { "year": "628 CE", "event": "Marries Prophet Muhammad ﷺ via proxy in Abyssinia." },
+        { "year": "664 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Al-Isabah", "source": "Ibn Hajar" }
+      ],
+      "image": "",
+      "aliases": ["Um Habiba"],
+      "notes": "Daughter of Abu Sufyan."
+    },
+    {
+      "id": "safiyya",
+      "name": "Safiyya bint Huyayy (RA)",
+      "title": "Ummat-ul-Mu'minin (Descendant of Prophet Harun/Aaron)",
+      "gender": "female",
+      "birth": "610 CE, Medina",
+      "death": "670 CE (50 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "huyayy-ibn-akhtab",
+      "mother": "bara-bint-samaw'al",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Safiyya (RA) was a noble woman from Banu Nadir and a direct descendant of Prophet Harun (Aaron). Prophet Muhammad ﷺ treated her with immense honor and affection.",
+      "timeline": [
+        { "year": "628 CE", "event": "Marries Prophet Muhammad ﷺ after Khaybar." },
+        { "year": "670 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Sunan at-Tirmidhi", "source": "Hadith Collection" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Lineage connects to Prophet Harun (AS)."
+    },
+    {
+      "id": "maymunah",
+      "name": "Maymunah bint al-Harith (RA)",
+      "title": "Ummat-ul-Mu'minin (The Last Married Wife)",
+      "gender": "female",
+      "birth": "594 CE, Mecca",
+      "death": "673 CE (51 AH), Saraf",
+      "burial": "Saraf (near Mecca)",
+      "father": "al-harith-ibn-hazan",
+      "mother": "hind-bint-awf",
+      "spouses": ["muhammad"],
+      "children": [],
+      "siblings": [],
+      "biography": "Maymunah (RA) was the last wife Prophet Muhammad ﷺ married, during the Umrah al-Qada (Compensatory Pilgrimage) in 629 CE at Saraf.",
+      "timeline": [
+        { "year": "629 CE", "event": "Marries Prophet Muhammad ﷺ at Saraf." },
+        { "year": "673 CE", "event": "Passes away at the exact location of her marriage in Saraf." }
+      ],
+      "references": [
+        { "title": "Sahih Muslim", "source": "Hadith Narrations" }
+      ],
+      "image": "",
+      "aliases": ["Barrah"],
+      "notes": "Aunt of Ibn Abbas and Khalid ibn al-Walid."
+    },
+    {
+      "id": "mariya",
+      "name": "Mariya al-Qibtiyya (RA)",
+      "title": "Mother of Ibrahim ibn Muhammad",
+      "gender": "female",
+      "birth": "c. 600 CE, Egypt",
+      "death": "637 CE (16 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "",
+      "mother": "",
+      "spouses": ["muhammad"],
+      "children": ["ibrahim"],
+      "siblings": ["sirin-bint-shamun"],
+      "biography": "Mariya al-Qibtiyya was a devout Coptic Christian noblewoman sent as a gift from Al-Muqawqis (Ruler of Alexandria) to Prophet Muhammad ﷺ. She accepted Islam and gave birth to the Prophet's youngest son, Ibrahim.",
+      "timeline": [
+        { "year": "628 CE", "event": "Arrives in Medina from Egypt." },
+        { "year": "630 CE", "event": "Gives birth to Ibrahim." },
+        { "year": "637 CE", "event": "Passes away in Medina during Omar's Caliphate." }
+      ],
+      "references": [
+        { "title": "Tabaqat Ibn Sa'd", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": ["Mariya the Coptic"],
+      "notes": "Mother of Ibrahim."
+    },
+    {
+      "id": "qasim",
+      "name": "Al-Qasim ibn Muhammad",
+      "title": "Eldest Son of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "598 CE, Mecca",
+      "death": "601 CE, Mecca",
+      "burial": "Jannat al-Mu'alla, Mecca",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": [],
+      "children": [],
+      "siblings": ["zainab-daughter", "ruqayyah", "umm-kulthum", "fatimah", "abdullah-son"],
+      "biography": "Al-Qasim was the eldest child of Prophet Muhammad ﷺ and Khadijah (RA). From him, the Prophet took his Kunya 'Abu al-Qasim' (Father of Qasim). He passed away in early childhood in Mecca.",
+      "timeline": [
+        { "year": "598 CE", "event": "Born in Mecca." },
+        { "year": "601 CE", "event": "Passes away in infancy." }
+      ],
+      "references": [
+        { "title": "An-Nawawi on the Prophet's Children", "source": "Imam an-Nawawi" }
+      ],
+      "image": "",
+      "aliases": ["Eldest Son"],
+      "notes": "Source of Prophet's Kunya 'Abu al-Qasim'."
+    },
+    {
+      "id": "abdullah-son",
+      "name": "Abdullah ibn Muhammad",
+      "title": "Son of Prophet Muhammad ﷺ (At-Tayyib & At-Tahir)",
+      "gender": "male",
+      "birth": "c. 611 CE, Mecca",
+      "death": "c. 615 CE, Mecca",
+      "burial": "Jannat al-Mu'alla, Mecca",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": [],
+      "children": [],
+      "siblings": ["qasim", "zainab-daughter", "ruqayyah", "umm-kulthum", "fatimah"],
+      "biography": "Abdullah was born after Prophet Muhammad ﷺ received prophecy. He passed away in early childhood in Mecca.",
+      "timeline": [],
+      "references": [
+        { "title": "Tabaqat Ibn Sa'd", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": ["At-Tayyib", "At-Tahir"],
+      "notes": "Born in Mecca after Revelation."
+    },
+    {
+      "id": "ibrahim",
+      "name": "Ibrahim ibn Muhammad",
+      "title": "Youngest Son of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "630 CE (8 AH), Medina",
+      "death": "632 CE (10 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "muhammad",
+      "mother": "mariya",
+      "spouses": [],
+      "children": [],
+      "siblings": ["qasim", "zainab-daughter", "ruqayyah", "umm-kulthum", "fatimah", "abdullah-son"],
+      "biography": "Ibrahim was born in Medina to Mariya al-Qibtiyya. Prophet Muhammad ﷺ expressed profound tenderness for him. Upon his passing at 16 months, a solar eclipse occurred; the Prophet ﷺ clarified that celestial events do not occur for the birth or death of any human.",
+      "timeline": [
+        { "year": "630 CE", "event": "Born in Medina." },
+        { "year": "632 CE", "event": "Passes away in Medina; solar eclipse sermon delivered." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on the Death of Ibrahim" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Beloved youngest son."
+    },
+    {
+      "id": "zainab-daughter",
+      "name": "Zainab bint Muhammad (RA)",
+      "title": "Eldest Daughter of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "600 CE, Mecca",
+      "death": "629 CE (8 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": ["abu-al-as"],
+      "children": ["ali-ibn-abu-al-as", "umamah"],
+      "siblings": ["qasim", "ruqayyah", "umm-kulthum", "fatimah", "abdullah-son"],
+      "biography": "Zainab (RA) was the eldest daughter of Prophet Muhammad ﷺ. She married her maternal cousin Abu al-As ibn al-Rabi. She accepted Islam in Mecca and later migrated to Medina.",
+      "timeline": [
+        { "year": "600 CE", "event": "Born in Mecca." },
+        { "year": "624 CE", "event": "Migrates to Medina." },
+        { "year": "629 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Siyar A'lam al-Nubala", "source": "Al-Dhahabi" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Mother of Umamah."
+    },
+    {
+      "id": "ruqayyah",
+      "name": "Ruqayyah bint Muhammad (RA)",
+      "title": "Daughter of Prophet Muhammad ﷺ & Wife of Uthman (RA)",
+      "gender": "female",
+      "birth": "601 CE, Mecca",
+      "death": "624 CE (2 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": ["uthman"],
+      "children": ["abdullah-ibn-uthman"],
+      "siblings": ["qasim", "zainab-daughter", "umm-kulthum", "fatimah", "abdullah-son"],
+      "biography": "Ruqayyah (RA) married Uthman ibn Affan (RA) and migrated with him first to Abyssinia and then to Medina. She passed away during the Battle of Badr.",
+      "timeline": [
+        { "year": "601 CE", "event": "Born in Mecca." },
+        { "year": "615 CE", "event": "Migrates to Abyssinia with Uthman (RA)." },
+        { "year": "624 CE", "event": "Passes away in Medina as news of Badr victory arrives." }
+      ],
+      "references": [
+        { "title": "Tabaqat Ibn Sa'd", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": ["Dhat al-Hijratayn (Migrant of Two Migration Places)"],
+      "notes": "First wife of Uthman ibn Affan (RA)."
+    },
+    {
+      "id": "umm-kulthum",
+      "name": "Umm Kulthum bint Muhammad (RA)",
+      "title": "Daughter of Prophet Muhammad ﷺ & Wife of Uthman (RA)",
+      "gender": "female",
+      "birth": "603 CE, Mecca",
+      "death": "630 CE (9 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": ["uthman"],
+      "children": [],
+      "siblings": ["qasim", "zainab-daughter", "ruqayyah", "fatimah", "abdullah-son"],
+      "biography": "Umm Kulthum (RA) migrated to Medina with her sister Fatimah (RA). Following the passing of Ruqayyah, she married Uthman ibn Affan (RA), earning Uthman the title 'Dhu al-Nurayn' (Possessor of Two Lights).",
+      "timeline": [
+        { "year": "603 CE", "event": "Born in Mecca." },
+        { "year": "624 CE", "event": "Marries Uthman ibn Affan (RA)." },
+        { "year": "630 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Usd al-Ghabah", "source": "Ibn al-Athir" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Second daughter of Prophet married to Uthman (RA)."
+    },
+    {
+      "id": "fatimah",
+      "name": "Fatimah al-Zahra (RA)",
+      "title": "Sayyidat Nisa' al-Alamin (Leader of Women of Paradise)",
+      "gender": "female",
+      "birth": "605 CE, Mecca",
+      "death": "632 CE (11 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "muhammad",
+      "mother": "khadijah",
+      "spouses": ["ali"],
+      "children": ["hasan", "husayn", "muhsin", "zainab-bint-ali", "umm-kulthum-bint-ali"],
+      "siblings": ["qasim", "zainab-daughter", "ruqayyah", "umm-kulthum", "abdullah-son"],
+      "biography": "Fatimah al-Zahra (RA) was the beloved youngest daughter of Prophet Muhammad ﷺ. She was deeply devoted to her father, known as Ummi Abiha (Mother of her Father). She married Ali ibn Abi Talib (RA) and was the mother of Hasan and Husayn (RA). The Prophet ﷺ declared her to be the leader of all women in Paradise.",
+      "timeline": [
+        { "year": "605 CE", "event": "Born in Mecca." },
+        { "year": "624 CE", "event": "Marries Ali ibn Abi Talib (RA) in Medina." },
+        { "year": "625 CE", "event": "Gives birth to Al-Hasan (RA)." },
+        { "year": "626 CE", "event": "Gives birth to Al-Husayn (RA)." },
+        { "year": "632 CE", "event": "Passes away in Medina 6 months after Prophet Muhammad ﷺ." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on Fatimah's Stature" },
+        { "title": "Fatimah the Gracious", "source": "Biographical Work" }
+      ],
+      "image": "",
+      "aliases": ["Al-Zahra (The Radiant)", "Al-Batul", "Ummi Abiha"],
+      "notes": "Direct lineage of the Prophet continues through Fatimah (RA)."
+    },
+    {
+      "id": "ali",
+      "name": "Ali ibn Abi Talib (RA)",
+      "title": "Fourth Rightly Guided Caliph & Cousin/Son-in-law",
+      "gender": "male",
+      "birth": "601 CE (13 Rajab), Kaaba, Mecca",
+      "death": "661 CE (21 Ramadan / 40 AH), Kufa",
+      "burial": "Najaf, Iraq",
+      "father": "abu-talib",
+      "mother": "fatimah-bint-asad",
+      "spouses": ["fatimah"],
+      "children": ["hasan", "husayn", "muhsin", "zainab-bint-ali", "umm-kulthum-bint-ali"],
+      "siblings": [],
+      "biography": "Ali ibn Abi Talib (RA) was the first child to accept Islam. He was raised in the household of Prophet Muhammad ﷺ. Known for his legendary courage, eloquence, wisdom, and deep knowledge of Quranic jurisprudence. Married Fatimah (RA) and served as the Fourth Caliph of Islam.",
+      "timeline": [
+        { "year": "601 CE", "event": "Born inside the Kaaba in Mecca." },
+        { "year": "610 CE", "event": "First male youth to embrace Islam." },
+        { "year": "622 CE", "event": "Sleeps in the Prophet's bed during Hijrah to protect him." },
+        { "year": "624 CE", "event": "Marries Fatimah al-Zahra (RA)." },
+        { "year": "656 CE", "event": "Becomes Fourth Caliph of Islam." },
+        { "year": "661 CE", "event": "Martyred in Kufa during Ramadan." }
+      ],
+      "references": [
+        { "title": "Nahj al-Balagha", "source": "Sermons & Letters" },
+        { "title": "Tarikh al-Khulafa", "source": "Al-Suyuti" }
+      ],
+      "image": "",
+      "aliases": ["Asadullah", "Abu Turab", "Amir al-Mu'minin", "Haydar"],
+      "notes": "Fourth Caliph of Islam."
+    },
+    {
+      "id": "uthman",
+      "name": "Uthman ibn Affan (RA)",
+      "title": "Third Rightly Guided Caliph (Dhu al-Nurayn)",
+      "gender": "male",
+      "birth": "576 CE, Ta'if",
+      "death": "656 CE (35 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "affan-ibn-abi-al-as",
+      "mother": "arwa-bint-kurayz",
+      "spouses": ["ruqayyah", "umm-kulthum"],
+      "children": ["abdullah-ibn-uthman"],
+      "siblings": [],
+      "biography": "Uthman ibn Affan (RA) was known for his modesty, generosity, and piety. Married Ruqayyah (RA) and later Umm Kulthum (RA). As Third Caliph, he standardized the official written text of the Holy Qur'an.",
+      "timeline": [
+        { "year": "576 CE", "event": "Born in Ta'if." },
+        { "year": "644 CE", "event": "Becomes Third Caliph of Islam." },
+        { "year": "651 CE", "event": "Standardizes the official compilation of the Qur'an." },
+        { "year": "656 CE", "event": "Martyred in Medina." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on Uthman" }
+      ],
+      "image": "",
+      "aliases": ["Dhu al-Nurayn (Owner of Two Lights)"],
+      "notes": "Possessor of Two Lights."
+    },
+    {
+      "id": "abu-al-as",
+      "name": "Abu al-As ibn al-Rabi (RA)",
+      "title": "Son-in-law of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "c. 590 CE, Mecca",
+      "death": "634 CE (12 AH), Medina",
+      "burial": "Medina",
+      "father": "al-rabi-ibn-abdul-uzza",
+      "mother": "halah-bint-khuwaylid",
+      "spouses": ["zainab-daughter"],
+      "children": ["ali-ibn-abu-al-as", "umamah"],
+      "siblings": [],
+      "biography": "Abu al-As was a prominent merchant of Mecca married to Zainab (RA). He accepted Islam and was praised by Prophet Muhammad ﷺ for his trustworthiness and devotion.",
+      "timeline": [
+        { "year": "628 CE", "event": "Embraces Islam in Medina." },
+        { "year": "634 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Sirat Ibn Hisham", "source": "Ibn Hisham" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Husband of Zainab."
+    },
+    {
+      "id": "hasan",
+      "name": "Al-Hasan ibn Ali (RA)",
+      "title": "Sayyid Shabab Ahl al-Jannah & Fifth Caliph",
+      "gender": "male",
+      "birth": "625 CE (15 Ramadan / 3 AH), Medina",
+      "death": "670 CE (50 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "ali",
+      "mother": "fatimah",
+      "spouses": [],
+      "children": ["hasan-al-muthanna", "zid-ibn-hasan"],
+      "siblings": ["husayn", "muhsin", "zainab-bint-ali", "umm-kulthum-bint-ali"],
+      "biography": "Al-Hasan (RA) was the elder grandson of Prophet Muhammad ﷺ. Prophet Muhammad ﷺ loved him dearly and foretold that Allah would reconcile two large Muslim groups through him. In 661 CE, Hasan voluntarily abdicated the Caliphate to secure peace and prevent bloodshed among Muslims.",
+      "timeline": [
+        { "year": "625 CE", "event": "Born in Medina." },
+        { "year": "661 CE", "event": "Becomes Caliph and signs Peace Treaty with Muawiyah to unify Muslims." },
+        { "year": "670 CE", "event": "Passes away in Medina." }
+      ],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on Hasan's Peace Making" },
+        { "title": "Siyar A'lam al-Nubala", "source": "Al-Dhahabi" }
+      ],
+      "image": "",
+      "aliases": ["Al-Mujtaba", "Sayyid Shabab Ahl al-Jannah"],
+      "notes": "Eldest grandson of the Prophet."
+    },
+    {
+      "id": "husayn",
+      "name": "Al-Husayn ibn Ali (RA)",
+      "title": "Sayyid ash-Shuhada & Grandson of the Prophet",
+      "gender": "male",
+      "birth": "626 CE (3 Sha'ban / 4 AH), Medina",
+      "death": "680 CE (10 Muharram / 61 AH), Karbala",
+      "burial": "Imam Husayn Shrine, Karbala, Iraq",
+      "father": "ali",
+      "mother": "fatimah",
+      "spouses": [],
+      "children": ["ali-zayn-al-abidin", "ali-al-akbar", "ali-al-asghar", "sukaynah", "fatiha"],
+      "siblings": ["hasan", "muhsin", "zainab-bint-ali", "umm-kulthum-bint-ali"],
+      "biography": "Al-Husayn (RA) was the younger grandson of Prophet Muhammad ﷺ. Renowned for his unwavering principle, moral bravery, and devotion to Islamic justice. He stood against tyranny at Karbala, where he was martyred on Ashura along with his loyal companions.",
+      "timeline": [
+        { "year": "626 CE", "event": "Born in Medina." },
+        { "year": "680 CE", "event": "Martyred at the Battle of Karbala on 10 Muharram." }
+      ],
+      "references": [
+        { "title": "Tarikh al-Tabari", "source": "Al-Tabari" },
+        { "title": "Maqtal al-Husayn", "source": "Historical Chronicles" }
+      ],
+      "image": "",
+      "aliases": ["Sayyid ash-Shuhada", "Sibt an-Nabi"],
+      "notes": "Grandson of Prophet Muhammad ﷺ."
+    },
+    {
+      "id": "muhsin",
+      "name": "Muhsin ibn Ali",
+      "title": "Son of Fatimah (RA) & Ali (RA)",
+      "gender": "male",
+      "birth": "632 CE, Medina",
+      "death": "632 CE, Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "ali",
+      "mother": "fatimah",
+      "spouses": [],
+      "children": [],
+      "siblings": ["hasan", "husayn", "zainab-bint-ali", "umm-kulthum-bint-ali"],
+      "biography": "Muhsin was the youngest child of Fatimah al-Zahra (RA) and Ali (RA), who passed away in infancy.",
+      "timeline": [],
+      "references": [
+        { "title": "Kitab al-Irshad", "source": "Sheikh Al-Mufid" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Passed away in infancy."
+    },
+    {
+      "id": "zainab-bint-ali",
+      "name": "Zainab bint Ali (RA)",
+      "title": "Heroine of Karbala & Granddaughter of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "626 CE, Medina",
+      "death": "682 CE, Damascus / Cairo",
+      "burial": "Sayyidah Zainab Mosque, Damascus / Cairo",
+      "father": "ali",
+      "mother": "fatimah",
+      "spouses": ["abdullah-ibn-ja'far"],
+      "children": ["ali-ibn-abdullah", "aoun", "muhammad-ibn-abdullah"],
+      "siblings": ["hasan", "husayn", "muhsin", "umm-kulthum-bint-ali"],
+      "biography": "Zainab bint Ali (RA) was famous for her eloquence, courage, and leadership following the tragedy of Karbala. Her courageous speeches preserved the truthful record of Karbala.",
+      "timeline": [
+        { "year": "626 CE", "event": "Born in Medina." },
+        { "year": "680 CE", "event": "Delivers powerful speeches in Kufa and Damascus." },
+        { "year": "682 CE", "event": "Passes away." }
+      ],
+      "references": [
+        { "title": "Balaqhat al-Nisa", "source": "Ibn Abi Tahir Tayfur" }
+      ],
+      "image": "",
+      "aliases": ["Batalat al-Karbala"],
+      "notes": "Granddaughter of Prophet Muhammad ﷺ."
+    },
+    {
+      "id": "umm-kulthum-bint-ali",
+      "name": "Umm Kulthum bint Ali (RA)",
+      "title": "Granddaughter of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "627 CE, Medina",
+      "death": "685 CE, Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "ali",
+      "mother": "fatimah",
+      "spouses": ["umar-ibn-al-khattab"],
+      "children": ["zaid-ibn-umar", "ruqayyah-bint-umar"],
+      "siblings": ["hasan", "husayn", "muhsin", "zainab-bint-ali"],
+      "biography": "Umm Kulthum bint Ali (RA) was the younger daughter of Fatimah (RA) and Ali (RA). She married Caliph Umar ibn al-Khattab (RA).",
+      "timeline": [],
+      "references": [
+        { "title": "Usd al-Ghabah", "source": "Ibn al-Athir" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Granddaughter of Prophet Muhammad ﷺ."
+    },
+    {
+      "id": "ali-ibn-abu-al-as",
+      "name": "Ali ibn Abi al-As",
+      "title": "Grandson of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "c. 612 CE, Mecca",
+      "death": "c. 628 CE, Medina",
+      "burial": "Medina",
+      "father": "abu-al-as",
+      "mother": "zainab-daughter",
+      "spouses": [],
+      "children": [],
+      "siblings": ["umamah"],
+      "biography": "Ali was the grandson of Prophet Muhammad ﷺ through his eldest daughter Zainab (RA). He passed away during adolescence.",
+      "timeline": [],
+      "references": [
+        { "title": "Al-Isabah", "source": "Ibn Hajar" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Passed away in youth."
+    },
+    {
+      "id": "umamah",
+      "name": "Umamah bint Abi al-As (RA)",
+      "title": "Beloved Granddaughter of Prophet Muhammad ﷺ",
+      "gender": "female",
+      "birth": "c. 615 CE, Mecca",
+      "death": "680 CE, Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "abu-al-as",
+      "mother": "zainab-daughter",
+      "spouses": ["ali"],
+      "children": [],
+      "siblings": ["ali-ibn-abu-al-as"],
+      "biography": "Umamah (RA) was beloved by Prophet Muhammad ﷺ, who used to carry her during prayer when she was a young child. After Fatimah's passing, Ali (RA) married her as advised by Fatimah (RA).",
+      "timeline": [],
+      "references": [
+        { "title": "Sahih al-Bukhari", "source": "Hadith on Prophet carrying Umamah in prayer" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Carried by Prophet in prayer."
+    },
+    {
+      "id": "abdullah-ibn-uthman",
+      "name": "Abdullah ibn Uthman",
+      "title": "Grandson of Prophet Muhammad ﷺ",
+      "gender": "male",
+      "birth": "619 CE, Abyssinia",
+      "death": "625 CE (4 AH), Medina",
+      "burial": "Jannat al-Baqi, Medina",
+      "father": "uthman",
+      "mother": "ruqayyah",
+      "spouses": [],
+      "children": [],
+      "siblings": [],
+      "biography": "Abdullah was born in Abyssinia to Ruqayyah (RA) and Uthman (RA). He passed away at age 6 in Medina.",
+      "timeline": [],
+      "references": [
+        { "title": "Tabaqat Ibn Sa'd", "source": "Ibn Sa'd" }
+      ],
+      "image": "",
+      "aliases": [],
+      "notes": "Grandson through Ruqayyah."
+    }
+  ]
+}
