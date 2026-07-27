@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Tree of Prophet Muhammad ﷺ</title>
+  <meta name="description" content="Interactive, data-driven genealogy tree detailing the family tree and noble lineage of Prophet Muhammad ﷺ." />
+  
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-[#fafafa] text-slate-900 flex flex-col min-h-screen">
+
+  <!-- Header: ONLY Centered Website Title -->
+  <header class="bg-white border-b border-slate-200/80 py-6 px-4 shadow-xs">
+    <div class="max-w-7xl mx-auto text-center relative">
+      <h1 class="text-xl md:text-2xl font-bold text-slate-900 tracking-tight">
+        <a href="index.html" class="hover:text-emerald-800 transition-colors">
+          Family Tree of Prophet Muhammad ﷺ
+        </a>
+      </h1>
+      
+      <!-- Discreet Admin Button in top-right -->
+      <a href="admin.html" class="absolute right-0 top-1/2 -translate-y-1/2 hidden md:inline-flex items-center gap-1.5 text-xs font-semibold text-slate-600 hover:text-emerald-800 bg-slate-50 hover:bg-emerald-50 px-3 py-1.5 rounded-full border border-slate-200 transition-colors">
+        <span>⚙️ Admin Panel</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Sub-bar Controls & Live Search -->
+  <section class="bg-white border-b border-slate-200/60 py-3 px-4 shadow-xs">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3">
+      
+      <!-- Live Search Box -->
+      <div id="home-search-wrapper" class="relative w-full sm:w-80">
+        <div class="relative">
+          <input type="text" id="home-search-input" placeholder="Search person by name, title, or alias..." 
+                 class="w-full bg-slate-50 border border-slate-200 text-xs md:text-sm text-slate-800 rounded-full pl-9 pr-4 py-2 focus:outline-hidden focus:ring-2 focus:ring-emerald-800 focus:border-transparent transition-all" />
+          <div class="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-xs">🔍</div>
+        </div>
+
+        <!-- Live Search Results Dropdown -->
+        <div id="home-search-results" class="hidden absolute top-full left-0 right-0 mt-1 bg-white border border-slate-200 rounded-2xl shadow-xl z-50 max-h-72 overflow-y-auto divide-y divide-slate-100">
+        </div>
+      </div>
+
+      <!-- Quick Control Actions -->
+      <div class="flex items-center gap-2 flex-wrap justify-center sm:justify-end w-full sm:w-auto">
+        <button id="focus-root" class="text-xs font-semibold text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200/80 px-3 py-1.5 rounded-full transition-colors">
+          ✨ Focus Prophet Muhammad ﷺ
+        </button>
+
+        <div class="flex items-center bg-slate-100 p-0.5 rounded-full border border-slate-200">
+          <button id="btn-zoom-in" title="Zoom In" class="w-7 h-7 text-xs font-bold text-slate-700 hover:bg-white rounded-full flex items-center justify-center transition-colors">
+            +
+          </button>
+          <button id="btn-zoom-out" title="Zoom Out" class="w-7 h-7 text-xs font-bold text-slate-700 hover:bg-white rounded-full flex items-center justify-center transition-colors">
+            −
+          </button>
+          <button id="btn-reset-view" title="Reset View" class="px-2.5 h-7 text-xs font-medium text-slate-700 hover:bg-white rounded-full flex items-center justify-center transition-colors">
+            Reset
+          </button>
+        </div>
+
+        <a href="admin.html" class="md:hidden text-xs font-semibold text-slate-600 bg-slate-100 px-3 py-1.5 rounded-full">
+          ⚙️ Admin
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Main Canvas Section for Interactive Family Tree -->
+  <main class="flex-1 relative w-full h-[calc(100vh-180px)] min-h-[550px] bg-[#fafafa]">
+    <div id="family-tree-canvas" class="w-full h-full"></div>
+
+    <!-- Tree Instructions Hint Badge -->
+    <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-xs border border-slate-200 px-3.5 py-2 rounded-2xl shadow-sm text-[11px] text-slate-600 flex items-center gap-2 pointer-events-none z-20">
+      <span>💡 <strong>Tip:</strong> Drag canvas to Pan • Scroll to Zoom • Click any card for biography & lineage details</span>
+    </div>
+  </main>
+
+  <!-- Footer: ONLY Footer text as specified -->
+  <footer class="bg-white border-t border-slate-200/80 py-5 text-center text-xs text-slate-500">
+    <div class="max-w-7xl mx-auto space-y-1">
+      <p class="font-medium text-slate-700">© 2026 Family Tree of Prophet Muhammad ﷺ</p>
+      <p class="text-[11px] text-slate-400">Educational Purpose Only</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/tree.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "name": "Family Tree of Prophet Muhammad ﷺ",
+  "description": "An interactive, data-driven genealogy tree and educational application detailing the family tree, biography, and lineage of Prophet Muhammad ﷺ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

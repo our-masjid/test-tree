@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Panel - Family Tree of Prophet Muhammad ﷺ</title>
+  <meta name="description" content="Integrated visual management panel for editing family records, relationships, timelines, and JSON data." />
+  
+  <!-- Fonts & Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="bg-[#fafafa] text-slate-900 flex flex-col min-h-screen">
+
+  <!-- Header: ONLY Centered Website Title -->
+  <header class="bg-white border-b border-slate-200/80 py-6 px-4 shadow-xs">
+    <div class="max-w-7xl mx-auto text-center relative">
+      <h1 class="text-xl md:text-2xl font-bold text-slate-900 tracking-tight">
+        <a href="index.html" class="hover:text-emerald-800 transition-colors">
+          Family Tree of Prophet Muhammad ﷺ
+        </a>
+      </h1>
+      <span class="inline-block mt-1 bg-emerald-800 text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full">
+        Visual Admin Panel
+      </span>
+    </div>
+  </header>
+
+  <!-- Password Protected Login Modal -->
+  <div id="auth-container" class="flex-1 flex items-center justify-center p-4">
+    <div class="bg-white rounded-[18px] border border-slate-200 p-8 shadow-sm max-w-md w-full text-center">
+      <div class="w-12 h-12 bg-emerald-100 text-emerald-800 rounded-full flex items-center justify-center mx-auto text-xl mb-3 font-bold">
+        🔒
+      </div>
+      <h2 class="text-xl font-bold text-slate-900 mb-1">Admin Authentication</h2>
+      <p class="text-xs text-slate-500 mb-6">Enter password to manage family tree dataset visually.</p>
+
+      <form id="auth-form" class="space-y-4">
+        <div>
+          <input type="password" id="auth-password" placeholder="Enter Admin Password (default: admin)" required
+                 class="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-2.5 text-sm text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-emerald-800" />
+        </div>
+
+        <p id="auth-error" class="text-xs font-semibold text-red-600 hidden"></p>
+
+        <button type="submit" class="w-full bg-emerald-800 hover:bg-emerald-900 text-white font-semibold py-2.5 rounded-xl transition-colors text-sm shadow-xs">
+          Unlock Admin Panel
+        </button>
+      </form>
+      <p class="text-[11px] text-slate-400 mt-4">Configured in <code>assets/js/config.js</code></p>
+    </div>
+  </div>
+
+  <!-- Main Admin Dashboard (Hidden until password verified) -->
+  <main id="admin-content" class="hidden flex-1 max-w-7xl w-full mx-auto p-4 md:p-8 space-y-8">
+    
+    <!-- Top Action Bar & Summary Stats -->
+    <div class="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-4 bg-white rounded-[18px] p-6 border border-slate-200 shadow-xs">
+      
+      <!-- Stats Cards -->
+      <div class="grid grid-cols-3 gap-4 flex-1">
+        <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100 text-center sm:text-left">
+          <p class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Total People</p>
+          <p id="stat-total-people" class="text-xl md:text-2xl font-bold text-slate-900 mt-0.5">0</p>
+        </div>
+        <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100 text-center sm:text-left">
+          <p class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Spouse Ties</p>
+          <p id="stat-total-spouses" class="text-xl md:text-2xl font-bold text-emerald-800 mt-0.5">0</p>
+        </div>
+        <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-100 text-center sm:text-left">
+          <p class="text-[11px] font-bold text-slate-600 uppercase tracking-wider">Children Links</p>
+          <p id="stat-total-children" class="text-xl md:text-2xl font-bold text-emerald-900 mt-0.5">0</p>
+        </div>
+      </div>
+
+      <!-- Quick Dataset Actions -->
+      <div class="flex flex-wrap items-center gap-2">
+        <button id="btn-add-person" class="bg-emerald-800 hover:bg-emerald-900 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition-all shadow-xs flex items-center gap-1.5">
+          <span>➕ Add New Person</span>
+        </button>
+
+        <button id="btn-export-json" class="bg-slate-800 hover:bg-slate-900 text-white text-xs font-semibold px-3.5 py-2.5 rounded-xl transition-all flex items-center gap-1.5">
+          <span>⬇️ Export family.json</span>
+        </button>
+
+        <label class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 text-xs font-semibold px-3.5 py-2.5 rounded-xl cursor-pointer transition-all flex items-center gap-1.5">
+          <span>📥 Import JSON</span>
+          <input type="file" id="import-file-input" accept=".json" class="hidden" />
+        </label>
+
+        <button id="btn-reset-json" class="bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 text-xs font-semibold px-3 py-2.5 rounded-xl transition-all">
+          Reset Default
+        </button>
+      </div>
+
+    </div>
+
+    <!-- People List & Management Table -->
+    <div class="bg-white rounded-[18px] border border-slate-200 shadow-xs overflow-hidden">
+      <div class="p-4 border-b border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <h2 class="text-base font-bold text-slate-900">Family Members Registry</h2>
+
+        <div class="w-full sm:w-72 relative">
+          <input type="text" id="admin-search-input" placeholder="Search by name or title..." 
+                 class="w-full bg-slate-50 border border-slate-200 text-xs text-slate-800 rounded-full pl-8 pr-3 py-1.5 focus:outline-hidden focus:ring-2 focus:ring-emerald-800" />
+          <span class="absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-400 text-xs">🔍</span>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-200 text-[11px] font-bold text-slate-600 uppercase tracking-wider">
+              <th class="p-3">Person</th>
+              <th class="p-3">Gender</th>
+              <th class="p-3">Father</th>
+              <th class="p-3">Mother</th>
+              <th class="p-3">Family Ties</th>
+              <th class="p-3 text-right">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="people-table-body">
+            <!-- Dynamic rows populated by admin.js -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Add / Edit Person Visual Form Modal -->
+  <div id="person-modal" class="hidden fixed inset-0 bg-slate-900/50 backdrop-blur-xs z-50 flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-white rounded-[18px] border border-slate-200 shadow-xl max-w-4xl w-full my-8 overflow-hidden flex flex-col max-h-[90vh]">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-slate-200 flex items-center justify-between bg-slate-50">
+        <h3 id="modal-title" class="text-base font-bold text-slate-900">Add / Edit Person</h3>
+        <button onclick="closePersonModal()" class="text-slate-400 hover:text-slate-600 font-bold text-lg p-1">✕</button>
+      </div>
+
+      <!-- Modal Body (Form + Live Preview 2-Column) -->
+      <div class="p-6 overflow-y-auto flex-1 grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Form Fields (2 Cols) -->
+        <form id="person-edit-form" class="lg:col-span-2 space-y-4">
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">ID Slug *</label>
+              <input type="text" id="form-id" required placeholder="e.g., fatimah" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs font-mono text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Full Name *</label>
+              <input type="text" id="form-name" required placeholder="e.g., Fatimah al-Zahra (RA)" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Title / Honorific</label>
+              <input type="text" id="form-title" placeholder="e.g., Leader of Women of Paradise" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Gender</label>
+              <select id="form-gender" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Dates -->
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Birth Date & Place</label>
+              <input type="text" id="form-birth" placeholder="e.g., 605 CE, Mecca" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Passing Date & Place</label>
+              <input type="text" id="form-death" placeholder="e.g., 632 CE, Medina" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Burial Resting Place</label>
+              <input type="text" id="form-burial" placeholder="e.g., Jannat al-Baqi, Medina" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+          </div>
+
+          <!-- Parents Relationships -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Father</label>
+              <select id="form-father" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800"></select>
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Mother</label>
+              <select id="form-mother" class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800"></select>
+            </div>
+          </div>
+
+          <!-- Spouses Checklist -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Spouses</label>
+            <div id="form-spouses-container" class="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-32 overflow-y-auto p-2 bg-slate-50 border border-slate-200 rounded-xl"></div>
+          </div>
+
+          <!-- Children Checklist -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Children</label>
+            <div id="form-children-container" class="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-32 overflow-y-auto p-2 bg-slate-50 border border-slate-200 rounded-xl"></div>
+          </div>
+
+          <!-- Siblings Checklist -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Siblings</label>
+            <div id="form-siblings-container" class="grid grid-cols-2 sm:grid-cols-3 gap-2 max-h-32 overflow-y-auto p-2 bg-slate-50 border border-slate-200 rounded-xl"></div>
+          </div>
+
+          <!-- Biography & Media -->
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Biography</label>
+            <textarea id="form-biography" rows="4" placeholder="Detailed biography..." 
+                      class="w-full bg-slate-50 border border-slate-200 rounded-xl p-3 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800"></textarea>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Image URL / Path</label>
+            <input type="text" id="form-image" placeholder="assets/images/... or https://..." 
+                   class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+          </div>
+
+          <!-- Timeline Editor -->
+          <div>
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-slate-700 uppercase">Timeline Events</label>
+              <button type="button" onclick="addTimelineItem()" class="text-xs font-semibold text-emerald-800 hover:underline">+ Add Event</button>
+            </div>
+            <div id="timeline-editor-list" class="space-y-2"></div>
+          </div>
+
+          <!-- Reference Editor -->
+          <div>
+            <div class="flex items-center justify-between mb-1">
+              <label class="text-xs font-bold text-slate-700 uppercase">References & Sources</label>
+              <button type="button" onclick="addReferenceItem()" class="text-xs font-semibold text-emerald-800 hover:underline">+ Add Reference</button>
+            </div>
+            <div id="reference-editor-list" class="space-y-2"></div>
+          </div>
+
+          <!-- Aliases & Notes -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Aliases (comma separated)</label>
+              <input type="text" id="form-aliases" placeholder="Al-Zahra, Al-Batul" 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+            <div>
+              <label class="block text-xs font-bold text-slate-700 uppercase mb-1">Notes</label>
+              <input type="text" id="form-notes" placeholder="Additional notes..." 
+                     class="w-full bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-xs text-slate-800 focus:ring-1 focus:ring-emerald-800" />
+            </div>
+          </div>
+
+          <div class="pt-4 border-t border-slate-200 flex items-center justify-end gap-3">
+            <button type="button" onclick="closePersonModal()" class="px-4 py-2 rounded-xl text-xs font-semibold text-slate-600 bg-slate-100 hover:bg-slate-200">Cancel</button>
+            <button type="submit" class="px-5 py-2 rounded-xl text-xs font-bold text-white bg-emerald-800 hover:bg-emerald-900 shadow-xs">Save Person Record</button>
+          </div>
+
+        </form>
+
+        <!-- Live Preview Sidebar (1 Col) -->
+        <div class="bg-slate-50 rounded-xl p-4 border border-slate-200 flex flex-col items-center">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-600 mb-4">Live Tree Card Preview</h4>
+          <div id="live-preview-card" class="w-full"></div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer: ONLY Footer text as specified -->
+  <footer class="bg-white border-t border-slate-200/80 py-5 text-center text-xs text-slate-500 mt-auto">
+    <div class="max-w-7xl mx-auto space-y-1">
+      <p class="font-medium text-slate-700">© 2026 Family Tree of Prophet Muhammad ﷺ</p>
+      <p class="text-[11px] text-slate-400">Educational Purpose Only</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>
